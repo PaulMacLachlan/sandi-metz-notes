@@ -151,7 +151,6 @@ pp. 191 -
 * *Commands*:  outgoing messages that have side-effects
 
 
-
 -------
 
 ![](./object-encapsulation.png "Message Passing & Object Encapsulation")
