@@ -120,9 +120,11 @@ pp. 163 - 187
 
 -------
 
-#### Choosing Relationships (summary)
+#### Choosing Relationships
 
-pp. 188 - 190
+pp. 188 - 192
+
+Always delay making design decisions until you need to.
 
   * Classical Inheritance: *is-a* relationships
   * Duck Types: *behaves-like-a* relationships
@@ -132,6 +134,21 @@ pp. 188 - 190
 
 #### Testing
 
+pp. 191 -
+
+* Refactoring improves existing structure and does not alter behavior.
+* The true purpose of testing is to reduce costs.
+* Benefits of testing include:
+  * finding bugs
+  * supplying documentation
+  * deferring design decisions
+  * supporting abstractions
+  * exposing design flaws
+
+<blockquote>Tests should concentrate on the incoming or outgoing messages that cross an object's boundaries. The incoming messages make up the pulic interface of the receiving object. The outgoing messages, by definition, are incoming into other objects and so are part of some other object's interface...</blockquote>
+
+* *Queries*: outoing messages that have no side-effects
+* *Commands*:  outgoing messages that have side-effects
 
 
 
